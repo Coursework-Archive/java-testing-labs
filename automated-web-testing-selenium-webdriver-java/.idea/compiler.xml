@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="TestFramework" />
+        <module name="WebDriverDemo (5)" />
+        <module name="WebDriverDemo (6)" />
+        <module name="WebDriverDemo (1)" />
+        <module name="WebDriverDemo (2)" />
+        <module name="WebDriverDemo (3)" />
+        <module name="Tests" />
+        <module name="WebDriverDemo (4)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TestFramework" target="11" />
+      <module name="Tests" target="11" />
+      <module name="WebDriverDemo" target="11" />
+      <module name="WebDriverDemo (1)" target="11" />
+      <module name="WebDriverDemo (2)" target="11" />
+      <module name="WebDriverDemo (3)" target="11" />
+      <module name="WebDriverDemo (4)" target="11" />
+      <module name="WebDriverDemo (5)" target="11" />
+      <module name="WebDriverDemo (6)" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

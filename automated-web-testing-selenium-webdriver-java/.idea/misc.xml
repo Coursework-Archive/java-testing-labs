@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/05/demos/m5/after/pom.xml" />
+        <option value="$PROJECT_DIR$/05/demos/m5/before/pom.xml" />
+        <option value="$PROJECT_DIR$/06/demos/m6/after/pom.xml" />
+        <option value="$PROJECT_DIR$/06/demos/m6/before/pom.xml" />
+        <option value="$PROJECT_DIR$/07/demos/m7/after/Tests/pom.xml" />
+        <option value="$PROJECT_DIR$/07/demos/m7/after/TestFramework/pom.xml" />
+        <option value="$PROJECT_DIR$/07/demos/m7/after/WebDriverDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/07/demos/m7/before/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
+</project>

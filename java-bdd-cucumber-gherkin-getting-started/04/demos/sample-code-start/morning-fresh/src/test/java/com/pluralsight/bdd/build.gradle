@@ -1,0 +1,34 @@
+test {
+    useTestNG() {
+        suites project.hasProperty('suiteFile') ? project.hasProperty('suiteFile') : 'config/TestSuite.xml'
+        scanForTestClasses = false
+        useDefaultListeners = true
+        outputDirectory file(resultOutputDir)
+    }
+
+    systemProperties 'org.uncommons.reportng.xml-dalect': 'testng'
+    systemProperties 'org.uncommons.reportng.escape-output': false
+    systemProperties 'log4j.configuration': 'file:///'+projectDir+'/resources/log4j.properties'
+    systemProperties 'json.report.root.dir': testResultsDir
+    systemProperties 'outputDir': resultOutputDir
+    systemProperties 'test.results.dir': resultOutputDir+'/html'
+    systemProperties 'json.report.dir':resultOutputDir+'/json'
+    systemProperties 'selenium.screenshots.dir': resultOutputDir+'/img'
+    systemProperties 'selenium.screenshots.relative.path': '../img'
+    systemProperties System.getProperties()
+
+    ignoreFailures true
+    testLogging {
+        showStandardStreams = true
+        exceptionFormat = 'full'
+    }
+
+    reports {
+        juintXml {
+            destination = file("$buildDir/test-results/junitXml")
+        }
+        html {
+            destination = file("$build/test-retults/html")
+        }
+    }
+}

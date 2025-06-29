@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Tests" parallel="false" thread-count="4" verbose="1">
+    <test name="Test1">
+        <parameter name="scenario.file.loc" value="scenarios/full/regression/Test1.feature" />
+        <parameter name="step.provider.pkg" value="com.company.automation.project.steps" />
+        <parameter name="testName" value="Test1"/>
+
+        <listeners>
+            <listener class-name="com.company.automation.steps.StepSuiteListener" />
+            <listener class-name="com.company.automation.steps.StepTestListener"/>
+        </listeners>
+
+        <groups>
+            <run>
+                <include name="regression" />
+                <exclude name="wip" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.qmetry.qaf.autoamtion.step.client.text.BDDTestFactory2"/>
+        </classes>
+
+    </test>
+
+
+    <test name="Test2">
+        <parameter name="scenario.file.loc" value="scenarios/full/regression/Test2.feature" />
+        <parameter name="step.provider.pkg" value="com.company.automation.project.steps" />
+        <parameter name="testName" value="Test2"/>
+
+        <listeners>
+            <listener class-name="com.company.automation.steps.StepSuiteListener" />
+            <listener class-name="com.company.automation.steps.StepTestListener"/>
+        </listeners>
+
+        <groups>
+            <run>
+                <include name="regression" />
+                <exclude name="wip" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.qmetry.qaf.autoamtion.step.client.text.BDDTestFactory2"/>
+        </classes>
+
+    </test>
+
+
+    <test name="Test3">
+        <parameter name="scenario.file.loc" value="scenarios/full/regression/Test3.feature" />
+        <parameter name="step.provider.pkg" value="com.company.automation.project.steps" />
+        <parameter name="testName" value="Test3"/>
+
+        <listeners>
+            <listener class-name="com.company.automation.steps.StepSuiteListener" />
+            <listener class-name="com.company.automation.steps.StepTestListener"/>
+        </listeners>
+
+        <groups>
+            <run>
+                <include name="regression" />
+                <exclude name="wip" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.qmetry.qaf.autoamtion.step.client.text.BDDTestFactory2"/>
+        </classes>
+
+    </test>
+
+    <test name="Test4">
+        <parameter name="scenario.file.loc" value="scenarios/full/regression/Test4.feature" />
+        <parameter name="step.provider.pkg" value="com.company.automation.project.steps" />
+        <parameter name="testName" value="Test4"/>
+
+        <listeners>
+            <listener class-name="com.company.automation.steps.StepSuiteListener" />
+            <listener class-name="com.company.automation.steps.StepTestListener"/>
+        </listeners>
+
+        <groups>
+            <run>
+                <include name="regression" />
+                <exclude name="wip" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.qmetry.qaf.autoamtion.step.client.text.BDDTestFactory2"/>
+        </classes>
+
+    </test>
+
+
+</suite>
