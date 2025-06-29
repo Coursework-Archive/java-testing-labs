@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/02/demos/exercise-files/after/CalcEngine/CalcEngine.iml" filepath="$PROJECT_DIR$/02/demos/exercise-files/after/CalcEngine/CalcEngine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02/demos/exercise-files/after/SlidesExpressingIntent/SlidesExpressingIntent.iml" filepath="$PROJECT_DIR$/02/demos/exercise-files/after/SlidesExpressingIntent/SlidesExpressingIntent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/adding-metadata-java-annotations.iml" filepath="$PROJECT_DIR$/.idea/adding-metadata-java-annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04/demos/exercise-files/after/after.iml" filepath="$PROJECT_DIR$/04/demos/exercise-files/after/after.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03/demos/exercise_files/after/after1.iml" filepath="$PROJECT_DIR$/03/demos/exercise_files/after/after1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02/demos/exercise-files/before/before.iml" filepath="$PROJECT_DIR$/02/demos/exercise-files/before/before.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04/demos/exercise-files/before/before1.iml" filepath="$PROJECT_DIR$/04/demos/exercise-files/before/before1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03/demos/exercise_files/before/before2.iml" filepath="$PROJECT_DIR$/03/demos/exercise_files/before/before2.iml" />
+    </modules>
+  </component>
+</project>
