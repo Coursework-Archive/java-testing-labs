@@ -12,3 +12,6 @@ Hands-on coursework focused on Java unit testing, BDD frameworks, and automated 
 - Java test-driven development
 - Cross-browser automation
 - Unit and integration testing
+
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
